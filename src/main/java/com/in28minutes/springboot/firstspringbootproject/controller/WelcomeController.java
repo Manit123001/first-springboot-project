@@ -13,7 +13,6 @@ public class WelcomeController {
 
     @GetMapping("/welcome")
     public String welcome() {
-        System.out.println("Hello Sexy");
         return service.retrieveWelcomeMessage();
     }
 }
