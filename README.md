@@ -1,4 +1,5 @@
-Reference https://github.com/in28minutes/SpringBootForBeginners
+Reference
+https://github.com/in28minutes/SpringBootForBeginners
 
 ### Step2
 - @Component
@@ -7,6 +8,7 @@ Reference https://github.com/in28minutes/SpringBootForBeginners
 https://github.com/in28minutes/spring-boot-master-class/blob/master/05.Spring-Boot-Advanced/Step02.md
 
 ### Step 4
+Overrode Version
 spring-boot-starter-web-services
 spring-boot-starter-test
 spring-boot-starter-jdbc
