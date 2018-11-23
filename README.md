@@ -23,3 +23,8 @@ service rest survay http://localhost:8080/surveys/Survey1/questions/
 Step 8
 Adding the second method to rest service to retrieve a specific question
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step08.md
+
+Step 10
+add a new question to survey
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step10.md
+
