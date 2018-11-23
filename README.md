@@ -16,3 +16,6 @@ spring-boot-starter-security
 spring-boot-starter-data-jpa
 spring-boot-starter-data-rest
 More at https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#using-boot-starter
+
+Step 6 
+service rest survay http://localhost:8080/surveys/Survey1/questions/
