@@ -33,19 +33,18 @@ https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step10.md
 ### Output
 #### Post
 http://localhost:8080/surveys/Survey1/questions/
-
-request body
-    ```{
-        "description": "bbbb Largest Country in the World",
-        "correctAnswer": "bbbb Russia",
-        "options": [
-            "India",
-            "Russia",
-            "United States",
-            "China"
-        ]
-    }
-    ```
+- request body
+```{  
+   "id":"Question1",
+   "description":"Largest Country in the World",
+   "correctAnswer":"Russia",
+   "options":[  
+      "India",
+      "Russia",
+      "United States",
+      "China"
+   ]
+}```
         
 #### Get
 http://localhost:8080/surveys/Survey1/questions/
