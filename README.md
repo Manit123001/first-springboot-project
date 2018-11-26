@@ -35,7 +35,7 @@ https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step10.md
 http://localhost:8080/surveys/Survey1/questions/
 
 request body
-    {
+    ```{
         "description": "bbbb Largest Country in the World",
         "correctAnswer": "bbbb Russia",
         "options": [
@@ -44,11 +44,11 @@ request body
             "United States",
             "China"
         ]
-    }
+    }```
         
 #### Get
 http://localhost:8080/surveys/Survey1/questions/
-[
+```[
     {
         "id": "Question1",
         "description": "Largest Country in the World",
@@ -94,10 +94,9 @@ http://localhost:8080/surveys/Survey1/questions/
         ]
     }
 ]
-
+```
 http://localhost:8080/surveys/Survey1/questions/Question1
-
-{
+```{
     "id": "Question1",
     "description": "Largest Country in the World",
     "correctAnswer": "Russia",
@@ -107,4 +106,4 @@ http://localhost:8080/surveys/Survey1/questions/Question1
         "United States",
         "China"
     ]
-}
+}```
