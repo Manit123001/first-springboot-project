@@ -27,9 +27,9 @@ repositories {
 dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-web')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
-
 	implementation group: 'org.springframework.boot', name: 'spring-boot-devtools', version: '2.1.0.RELEASE'
 
-//	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-parent', version: '1.4.0.RELEASE', ext: 'pom'
-
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+//	implementation 'org.springframework.boot:spring-boot-starter-hateoas'
+	implementation('org.springframework.data:spring-data-rest-hal-browser')
 }
