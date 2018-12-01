@@ -118,11 +118,25 @@ set up other of service embeded like a jetty, tomcat
 
 ###  Step 15
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step15.md
+`YAML @Value(${key})` Parameter global
 - Using Dynamic Configuration in your application
 - Customize Welcome Message
 - Different ways of configuration
-- --welcome.message="SomethingElse" in Program Arguments
+- --welcome.message="SomethingElse" in Program Arguments"
 - --spring.config.location=classpath:/default.properties
 - We will learn about profiles in next step
 - Using Placeholders
 - YAML 
+
+### Step 16
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step16.md
+`@Bean, @Profile("dev"), ` Flavors run
+- Understand Basics of Profiles
+- Setting a profile
+- Using -Dspring.profiles.active=prod in `VM Arguments`
+- spring.profiles.active=prod
+- Using a profile
+- application-{profile-name}.properties
+- @Profile("dev") on a bean
+- Usage
+- Configure Resources - Databases, Queues, External Services
