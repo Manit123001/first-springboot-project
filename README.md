@@ -17,14 +17,14 @@ spring-boot-starter-data-jpa
 spring-boot-starter-data-rest
 More at https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#using-boot-starter
 
-Step 6 
+### Step 6 
 service rest survay http://localhost:8080/surveys/Survey1/questions/
 
-Step 8
+### Step 8
 Adding the second method to rest service to retrieve a specific question
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step08.md
 
-Step 10
+### Step 10
 add a new question to survey
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step10.md
 
@@ -109,8 +109,20 @@ http://localhost:8080/surveys/Survey1/questions/Question1
         "United States",
         "China"
     ]
-}```
+}
+```
 
-### Step 14 
+###  Step 14 
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step14.md
-set up other of service embeded like a jetty, tomcat 
+set up other of service embeded like a jetty, tomcat
+
+###  Step 15
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step15.md
+- Using Dynamic Configuration in your application
+- Customize Welcome Message
+- Different ways of configuration
+- --welcome.message="SomethingElse" in Program Arguments
+- --spring.config.location=classpath:/default.properties
+- We will learn about profiles in next step
+- Using Placeholders
+- YAML 
