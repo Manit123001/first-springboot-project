@@ -110,3 +110,7 @@ http://localhost:8080/surveys/Survey1/questions/Question1
         "China"
     ]
 }```
+
+### Step 14 
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step14.md
+set up other of service embeded like a jetty, tomcat 
