@@ -146,3 +146,22 @@ https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step17.md
 `@ConfigurationProperties("basic")`
 - better configuration management than @Value
 - Type-safe Configuration Properties
+
+### Step 18
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step16.md
+Create a very simple example with Spring Data JPA
+
+JPA : Java Persistent Api = use for map java object to any DB relations 
+- Let's switch back to tomcat first!
+- Get introduced to Spring Data JPA
+- Create a very simple example with Spring Data JPA
+- Use CommandLineRunner!
+
+Useful Properties
+- spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+- spring.datasource.url=jdbc:mysql://localhost:3306/test
+- spring.datasource.username=root
+- spring.datasource.password=admin
+- spring.datasource.initialize=true
+- spring.jpa.hibernate.ddl-auto=update
+- spring.jpa.show-sql=true
