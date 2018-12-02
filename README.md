@@ -140,3 +140,9 @@ https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step16.md
 - @Profile("dev") on a bean
 - Usage
 - Configure Resources - Databases, Queues, External Services
+
+### Step 17
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step17.md
+`@ConfigurationProperties("basic")`
+- better configuration management than @Value
+- Type-safe Configuration Properties
