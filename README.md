@@ -165,3 +165,14 @@ Useful Properties
 - spring.datasource.initialize=true
 - spring.jpa.hibernate.ddl-auto=update
 - spring.jpa.show-sql=true
+
+### Step 19
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/Step19.md
+
+Spring data jpa document 
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.query-methods.details
+
+- Look at H2 Console : http://localhost:8080/h2-console
+    - Use db url jdbc:h2:mem:testdb
+- Add findByRole method
+
