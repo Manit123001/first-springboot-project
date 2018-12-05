@@ -198,3 +198,9 @@ SurveyController TDD `SurveyControllerIT.clss -> testRetrieveSurveyQuestion`
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step22.md
 
 SurveyController TDD `SurveyControllerIT.clss -> addQuestion.clss`
+
+### Step 23
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step23.md
+
+- Clean code 
+- SurveyController TDD `SurveyControllerIT.clss -> retrieveAllSurveyQuestions.clss`
