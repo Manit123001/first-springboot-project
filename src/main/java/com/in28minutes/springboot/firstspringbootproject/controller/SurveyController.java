@@ -30,7 +30,7 @@ public class SurveyController {
                 "description": "Largest Country in the World",
                 "correctAnswer": "Russia",
                 "options": [
-            "India",
+                    "India",
                     "Russia",
                     "United States",
                     "China"
