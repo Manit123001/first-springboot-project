@@ -1,6 +1,7 @@
 package com.in28minutes.springboot.firstspringbootproject.controller;
 
 import com.in28minutes.springboot.firstspringbootproject.FirstSpringbootProjectApplication;
+import com.in28minutes.springboot.firstspringbootproject.model.Question;
 import org.json.JSONException;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -58,5 +59,28 @@ public class SurveyControllerIT {
 //        assertTrue(response.contains("{\"id\":\"Question1\""));
 
 //        response.getBody() = {"id":"Question1","description":"Largest Country in the World","correctAnswer":"Russia","options":["India","Russia","United States","China"]}
+    }
+
+    @Test
+    public void addQuestion() {
+        String url = "http://localhost:" + port + "/surveys/Survey1/questions";
+
+        TestRestTemplate restTemplate = new TestRestTemplate();
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
+
+        Question question1 = new Question("AUTO Add",
+                "Question add more",
+                "Russia",
+                Arrays.asList("India", "Russia", "United States", "China"));
+
+        HttpEntity entity = new HttpEntity<Question>(question1, headers);
+
+        ResponseEntity<String> response = restTemplate.exchange(url, HttpMethod.POST, entity, String.class);
+
+        String actual = response.getHeaders().get(HttpHeaders.LOCATION).get(0);
+        System.out.println("actual = " + actual); // http://localhost:65086/surveys/Survey1/questions/ksv8sa4i3aqd8rtsl9tv4b2h5l
+        assertTrue(actual.contains("/surveys/Survey1/questions/"));
     }
 }
