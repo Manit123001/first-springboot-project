@@ -176,3 +176,15 @@ https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories
     - Use db url jdbc:h2:mem:testdb
 - Add findByRole method
 
+### Step 20
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step20.md
+
+- Learn Spring data rest that use to build a simple REST API.
+- Introduction to Spring Data Rest
+- Hit http://localhost:8080/users in POSTMAN
+- http://localhost:8080/users/1
+- http://localhost:8080/users/?size=4
+- http://localhost:8080/users/?sort=name,desc
+- @Param("role")
+- http://localhost:8080/users/search/findByRole?role=Admin
+- Good for quick prototype! Be cautious about using this in Big applications!
