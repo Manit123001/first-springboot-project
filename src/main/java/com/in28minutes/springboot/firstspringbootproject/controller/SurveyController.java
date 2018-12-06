@@ -55,7 +55,7 @@ public class SurveyController {
     }
 
     @GetMapping(path = "/surveys/{surveyId}/questions/{questionId}")
-    public Question retrieveQuestion(@PathVariable String surveyId,
+    public Question retrieveDetailsForQuestion(@PathVariable String surveyId,
                                      @PathVariable String questionId) {
 
         return surveyService.retrieveQuestion(surveyId, questionId);

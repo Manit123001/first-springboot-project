@@ -204,3 +204,16 @@ https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot
 
 - Clean code 
 - SurveyController TDD `SurveyControllerIT.clss -> retrieveAllSurveyQuestions.clss`
+
+### Step 24
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step24.md
+
+Unit Test -> `SurveyControllerTest.clss -> retrieveDetailsForQuestion.clss`
+
+- Write a Unit Test for retrieving a specific question from a survey.
+- Different between Unit Test and Integration Test
+- Basics of Mocking
+- MockMvc framework
+- @MockBean
+- Programming Tip
+- Be an expert at Mockito - https://courses.in28minutes.com/p/mockito-for-beginner-in-5-steps
