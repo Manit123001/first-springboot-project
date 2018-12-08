@@ -225,3 +225,11 @@ Unit Test -> `SurveyControllerTest.clss -> createSurveyQuestion, retrieveSurveyQ
 
 Write Step Unit Test Get, Post Service 
 
+### Step 26
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step26.md
+`Spring Security`
+
+- Securing our services with Basic Authentication using Spring Security
+- Executing Requests using Basic Authentication with Postman
+- default user name is user
+- default security password is printed in console
